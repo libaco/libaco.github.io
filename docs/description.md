@@ -148,4 +148,4 @@ $ gcc -g -D ACO_USE_VALGRIND -O2 acosw.S aco.c test_aco_synopsis.c -o test_aco_s
 $ valgrind --leak-check=full --tool=memcheck ./test_aco_synopsis
 ```
 
-For more information abot how to build you may refer to the "[Build and Test](#build-and-test)".
+For more information abot how to build you may refer to the [build and test](build-and-test).
