@@ -1,10 +1,17 @@
 # libaco.org
 
-Documentation for [libaco](libaco.org), a C library offering support for asymmetric coroutines.
+Documentation for [libaco.org](https://libaco.org) ([go to libaco repository](https://github.com/hnes/libaco)), a C library offering support for asymmetric coroutines.
 
 The documentation is built using [Docusaurus 2](https://v2.docusaurus.io/).
 
-## Installation
+## Install packages
+
+#### npm
+```console
+npm install
+```
+
+#### yarn
 
 ```console
 yarn install
@@ -12,24 +19,27 @@ yarn install
 
 ## Local Development
 
+#### npm
+```console
+npm start
+```
+
+#### yarn
+
 ```console
 yarn start
 ```
 
-This command starts a local development server and open up a browser window. Most changes are reflected live without having to restart the server.
+## Build and deploy
 
-## Build
-
-```console
-yarn build
-```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-## Deployment
+#### npm
 
 ```console
-GIT_USER=<Your GitHub username> USE_SSH=true yarn deploy
+GIT_USER=<Your GitHub username> USE_SSH=true DEPLOYMENT_BRANCH=deploy npm run-script deploy
 ```
 
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+#### yarn
+
+```console
+GIT_USER=<Your GitHub username> USE_SSH=true DEPLOYMENT_BRANCH=deploy yarn deploy
+```
