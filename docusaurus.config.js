@@ -2,7 +2,7 @@ module.exports = {
   title: 'Libaco',
   tagline: 'Asymmetric coroutines for C/C++',
   url: 'https://libaco.org',
-  baseUrl: 'https://libaco.org/',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
