@@ -46,7 +46,7 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          editUrl: 'https://github.com/libaco/libaco.github.io/edit/master/',
+          editUrl: 'https://github.com/libaco/libaco.github.io/edit/main/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
