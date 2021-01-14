@@ -10,11 +10,12 @@ module.exports = {
   projectName: 'libaco.github.io', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'libaco',
-      // logo: {
-      //   alt: 'libaco',
-      //   src: 'img/logo.svg',
-      // },
+      //title: 'libaco',
+      logo: {
+        alt: 'libaco',
+        src: 'img/libaco_logo_blue.svg',
+        srcDark: 'img/libaco_logo_white.svg',
+      },
       items: [
         {
           to: 'docs',

@@ -5,6 +5,13 @@ sidebar_label: Introduction
 slug: /
 ---
 
+<span class="display-light-mode">
+    <img src="/img/libaco_logo_blue.svg" class="introduction-logo" />
+</span>
+<span class="display-dark-mode">
+    <img src="/img/libaco_logo_white.svg" class="introduction-logo" />
+</span>
+
 libaco - A blazing fast and lightweight C asymmetric coroutine library.
 
 [![Build Status Travis](https://img.shields.io/travis/hnes/libaco.svg?style=flat-square&&branch=master)](https://travis-ci.org/hnes/libaco)
