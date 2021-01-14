@@ -8,15 +8,10 @@
 /* You can override the default Infima variables here. */
 
 :root {
-  --ifm-color-primary: #002f4e;
-}
-
-:root[data-theme='dark'] {
-  --ifm-color-primary: #fff;
+  --ifm-color-primary: #48bee9ff;
 }
 
 :root {
-  --ifm-color-primary: #002f4e;
   --ifm-color-primary-dark: rgb(33, 175, 144);
   --ifm-color-primary-darker: rgb(31, 165, 136);
   --ifm-color-primary-darkest: rgb(26, 136, 112);
